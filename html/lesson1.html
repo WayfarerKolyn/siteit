@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Design</title>
+	<link rel="stylesheet" href="/home/oleg/Рабочий стол/site/css/style1.css">
+	<link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	
+	<header>
+		
+		<div class="navigation">
+			<div class="logo">SingleIT</div>
+			<img width="100px" src="22112.gif">
+			<div class="menu">
+				<ul class="nav">
+					<li><a class="link" href="/home/oleg/Рабочий стол/site/html/cpp.html">Уроки С++</a></li>
+					<li><a class="link" href="/home/oleg/Рабочий стол/site/html/strlinux.html">Уроки LINUX</a></li>
+					<li><a class="link" href="/home/oleg/Рабочий стол/site/html/novosti.html">Новости IT</a></li>
+					<li><a class="link" href="#">ЧАТ</a></li>
+					<li><a class="link" href="#">Поддержка</a></li>
+				</ul>
+				<ul class="nav icon">
+					<li><a class="link" href="#"><i class="fas fa-search"></i></a></li>
+					<li><a class="link" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+					<li><a class="link" href="#"><i class="fas fa-user"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="description">
+			<h1>Урок 1.
+            </h1>
+			<br>
+			<br>
+			<p>Общие сведения о языке С++</p>
+			<p>  Язык программирования С++ был создан на основе языка С в 1979
+				году Бьерном Страуструпом. Изначальна Бьерн создал расширение для
+				языка С, которое позволяло работать с классами и объектами,
+				что позволило работать на более высоком уровне абстракции.
+			  </p>
+			<img src="/home/oleg/Сайт/1урок/i.webp">
+			<p>Следует отметить, что один из принципов разработки стандарта С++
+				является сохранение совместимости с языком С, от которого С++
+				и унаследовал свой синтаксис. Интересно то, что мы можем написать
+				программу на С так, чтобы она успешно смогла скомпилироваться на языке С++.</p>
+			<p>Описание С++:
+				1.C++ компилируемый язык программирования. Это значит, что исходный код этого языка(код, который мы пишем в текстовом
+				редакторе или в IDE) преобразуется компилятором(программой, которая переводит текст на языке 
+				программирования, в машиный код - код нулей и единиц, на котором "разговаривает" компьютер)
+				и записывается в исполняемый файл.
+				</p>
+			<p>2.С++ статически типизированный. Это значит что если мы определили для переменной какой - либо
+				тип данных, то после мы этот тип изменить не можем. Статические языки проверяют типы в программе
+				во время компиляции, еще до запуска программы.
+				Например С++ не примет выражение:</p>
+			<p>      int a = "Hellow"; </p>
+			<p>В данном случает компилятор понимает, что а - целое число, а Hellow - строка, соответственно
+				он не позволит такому коду безпроблемно запуститься. </p>
+			<p> 3.С++ совмещает в себе качества низкоуровнего и высокоуровнего
+				языка программирования. Благодаря низкоуровневости С++ мы можем
+				работать с памятью напряму(чем мы и булдем заниматься, когда начнем разбираться
+				с работой с динамической памятью). Так же в С++ можно работать
+				с высокоуровневыми концепциями, такими как ООП(Объектно - ориентированное программирование)</p>
+			<p> 4.С++ очень эффективный язык программирования, на котором пишут высоконагруженные
+				программы. На этом языке создается большая чать игр. С++ применяется
+				компаниями:Google, Microsoft, Яндекс и т.д </p>
+			<br>
+		</head>
+		<body>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-auto">
+						<h2 class="text-center">
+							Комментарии
+						</h2>
+					</div>
+					<div class="row-cols-lg-3">
+						<div id="comment-field"></div>
+					</div>
+					<div class="col-lg-6">
+							<form>
+									<div class="form-group">
+									  <label for="comment-name">Name:</label>
+									  <input type="email" class="form-control" id="comment-name"  placeholder="Enter your name">
+									</div>
+									<div class="form-group">
+									  <label for="comment-body">Comment:</label>
+									  <textarea type="password" class="form-control" id="comment-body" placeholder="comment"></textarea>
+									</div>
+									<div class="form-group form-check text-right">
+											<button type="submit" id="comment-add" class="btn btn-primary">add Comment</button>
+									</div>
+								  </form>
+					</div>
+				</div>
+			</div>
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+				<script src="js.js"></script>
+		</div>
+		</header>
+	</body>
+	
